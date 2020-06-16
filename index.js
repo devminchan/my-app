@@ -12,6 +12,6 @@ app.get("/hello", (req, res) => {
   });
 });
 
-app.listen(80, () => {
+app.listen(3000, () => {
   console.log("Server starting on port 80");
 });
