@@ -12,6 +12,12 @@ app.get("/hello", (req, res) => {
   });
 });
 
+app.get("/test", (req, res) => {
+  res.json({
+    message: "Test",
+  });
+});
+
 app.listen(3000, () => {
   console.log("Server starting on port 80");
 });
