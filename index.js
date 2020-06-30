@@ -15,6 +15,7 @@ app.get("/hello", (req, res) => {
 app.get("/test", (req, res) => {
   res.json({
     message: "Test",
+    env: process.env.TEST_ENV || "NULL",
   });
 });
 
